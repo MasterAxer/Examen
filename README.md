@@ -1,0 +1,1 @@
+Crear una página Web, aplicando javascript, HTML y estilos CSS convenientes, la página web contempla tres secciones, donde su información es cargada dinámicamente mediante el uso del DOM, cada sección viene precargada y la tarea es complementarlas según sea lo necesario.
