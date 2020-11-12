@@ -1,14 +1,17 @@
 function nombres()
 {
+
 	document.getElementById('nombre').innerHTML="Jorge Armando López Jaramillo";
 	document.getElementById('profesion').innerHTML="Estudiante de 5-A en la ingeniería en Telemática de la Facultad de Telemática";
-	document.getElementById('procedencia').innerHTML="Aremería Col | México";
+	document.getElementById('procedencia').innerHTML="Armería Col | México";
 	document.getElementById('carrera').innerHTML="<strong>Carrera:</strong> Ingeniería en Telemática";
 	document.getElementById('escuela').innerHTML="<strong>Escuela:</strong> Facultad de Telemática";
 	document.getElementById('institucion').innerHTML="<strong>Institución:</strong> Universidad de Colima";
+	
 }
 function frutas()
 {
+	document.getElementById('lista').innerHTML="";
 	var x=prompt("Elige la categoría de frutas:\n1.-Dulces\n2.-Acidas\n3.-Neutras");
 	var array=[];
 	if(x=="Dulces"||x=="dulces")
@@ -18,7 +21,7 @@ function frutas()
 		for(var i=1;i<=n;i++)
 		{
 			array=prompt("Dime el nombre de la fruta "+ i);
-			document.getElementById("lista").innerHTML+="<li>"+array+"</li>"
+			document.getElementById("lista").innerHTML+="<li>"+array+"</li>";
 		}
 
 	}
@@ -45,7 +48,12 @@ function frutas()
 }
 function verInfo()
 {
-	document.getElementById('info').style.display="block";
+	var x = document.getElementById("info");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 }
 function opcion(opt)
 {
