@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Primera 5A</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<div id="arriba">
+		<img src="img/banner5a.jpg">
+		<div class="menu"><span id="opc1" onclick="opcion(1);">Datos generales</span>&nbsp;<span id="opc2" onclick="opcion(2);">Procesos</span>&nbsp;<span id="opc3" onclick="opcion(3);">Relleno</span></div>
+	</div>
+	<div id="contenido" value="lightblue">
+		<div id="ficha">
+			<h2>Sección de datos personales</h3>
+			<div id="foto"><img src="img/bitmojih.png" width="150" onclick="nombres();"></div>
+			<div id="datos">
+				<h3 id="nombre">Nombre</h3>
+				<p id="profesion"></p>
+				<p id="procedencia"></p>
+				<p id="carrera"></p>
+				<p id="escuela"></p>
+				<p id="institucion"></p>
+			</div>
+		</div>
+		<div id="procesos">
+			<h2>Sección de procesos</h2>
+			<button onclick="frutas();">Cat&aacute;logo de la fruteria</button>
+			
+			<div id="salida">
+				<p id="label"></p>
+				<ul id="lista"></ul>
+			</div>
+		</div>
+		<div id="relleno">
+						
+			<h2>Sección publicitaria</h2>
+			<div>
+				<img class="news" src="img/iconoNews.png"><div class="titIcono"><p>De viajes y algo mas<br><span id="sugiere">Sugerencia para ti</span></p></div> 
+				<br />
+				<img id="mazatleco" onclick="verInfo();" src="https://mazatleco.com/wp-content/uploads/2019/03/playa-cerro-chivos-mazatlan.jpg" width="200">
+				<p id="info" style="display: none">La playa del cerro de los chivos es pequeña y sus aguas son muy tranquilas con olas muy pequeñas. Se encuentran unos cuantos restaurantes cerca y esta pegado a la isla de la piedra mediante la escollera.</p>
+			</div>
+		</div>
+	</div>
+	<div id="pie">
+		<p>&copy; Desarrollado por:<a href="https://github.com/MasterAxer">Jorge Armando López Jaramillo</a></p>
+	</div>
+</body>
+</html>

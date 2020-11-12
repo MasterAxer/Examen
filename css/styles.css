@@ -1,0 +1,26 @@
+#arriba{
+	text-align: center;
+	background-color: #C583F1;
+}
+body{margin:0px;font-family: arial;}
+
+.menu{width:1022px;padding:10px 0px;border:1px solid white;margin:0px auto;text-align: left;}
+
+#opc1{padding:10px;background-color: lightblue;cursor:pointer;}
+#opc2{padding:10px;background-color: lightyellow;cursor:pointer;}
+#opc3{padding:10px;background-color: lightgreen;cursor:pointer;}
+#contenido{width: 1024px;margin: 0px auto;}
+.news{width: 40px;float: left;}
+.titIcono{margin-left:45px;width: 150px;}
+#sugiere{font-size: 8pt;color: gray;font-style: italic;}
+#relleno {margin-bottom: 10px;}
+#pie{
+	text-align: center;
+	width: 90%;
+	border-top: 1px solid black;
+	margin:auto; 
+}
+#foto, #mazatleco{
+	cursor: pointer;
+}
+
